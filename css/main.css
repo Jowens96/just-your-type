@@ -2,39 +2,28 @@ html {
   background-color: #404040;
 }
 
-p {
+p, h1 {
   color: #d2caca;
-  font-family: 'Arapey', serif;
+  font-family: Arapey, serif;
   text-align: center;
 }
 
 .sight, .mind {
-  font-family: 'Nothing You Could Do', cursive;
-}
-
-.dimension2, .sight, .butof, .mind {
-  visibility: hidden;
+  font-family: "Nothing You Could Do", cursive;
 }
 
 @media only screen and (min-width: 25em) {
 
   html {
-    background-color: #333333;
-  }
-
-  .dimension2, .sight {
-    visibility: visible;
+    background-color: #333;
   }
 
 }
+
 @media only screen and (min-width: 38em) {
 
   html {
-    background-color: #1F1F1F;
-  }
-
-  .butof {
-    visibility: visible;
+    background-color: #1f1f1f;
   }
 
 }
@@ -42,12 +31,7 @@ p {
 @media only screen and (min-width: 60em) {
 
   html {
-    background-color: #0D0D0D;
+    background-color: #0d0d0d;
   }
-
-  .mind {
-    visibility: visible;
-  }
-
 
 }
