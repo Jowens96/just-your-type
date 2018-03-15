@@ -12,10 +12,18 @@ p {
   font-family: 'Nothing You Could Do', cursive;
 }
 
+.dimension2, .sight, .butof, .mind {
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
     background-color: #333333;
+  }
+
+  .dimension2, .sight {
+    visibility: visible;
   }
 
 }
@@ -25,12 +33,21 @@ p {
     background-color: #1F1F1F;
   }
 
+  .butof {
+    visibility: visible;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-html {
-  background-color: #0D0D0D;
-}
+  html {
+    background-color: #0D0D0D;
+  }
+
+  .mind {
+    visibility: visible;
+  }
+
 
 }
