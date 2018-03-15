@@ -5,5 +5,16 @@ body {
 p {
   color: #d2caca;
   font-family: 'Arapey', serif;
+}
+
+.demension1, .demension2, .sight {
   text-align: right;
+}
+
+.butof, .mind {
+  text-align: center;
+}
+
+.sight, .mind {
+  font-family: 'Nothing You Could Do', cursive;
 }
